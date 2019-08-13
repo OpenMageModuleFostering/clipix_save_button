@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Clipix_SaveButton>
+            <version>1.0.0.0</version>
+        </Clipix_SaveButton>
+    </modules>
+    <global>
+        <blocks>
+            <Clipix_SaveButton>
+                <class>Clipix_SaveButton_Block</class>
+            </Clipix_SaveButton>
+        </blocks>
+		<helpers>
+			<Clipix_SaveButton>
+				<class>Clipix_SaveButton_Helper</class>
+			</Clipix_SaveButton>
+		</helpers>
+        <models>
+            <Clipix_SaveButton>
+                <class>Clipix_SaveButton_Model</class>
+            </Clipix_SaveButton>   
+        </models>		
+    </global>
+
+    <frontend>
+        <layout>
+            <updates>
+                <Clipix_SaveButton>
+                    <file>clipix/savebutton.xml</file>
+                </Clipix_SaveButton>
+            </updates>
+        </layout>
+    </frontend>
+    <adminhtml>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <Clipix_SaveButton_Config>
+                                            <title>Clipix Save Button Configuration</title>
+                                        </Clipix_SaveButton_Config>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>	
+</config>

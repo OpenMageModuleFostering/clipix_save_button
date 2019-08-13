@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>Clipix_Save_Button</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Add the Clipix "Save" Button to your online store and provide your visitors with an easy way to save any items they are considering to buy, but not ready to execute on.&#xD;
+&lt;br&gt;&#xD;
+When they are ready to purchase, instead of searching for items again they will now easily get back to your website, with one click of a button, to the exact product page to execute their purchase.  Additionally, visitors can set a price drop alert for items that they save, which will automatically alert them when your merchandise goes on sale.</summary>
+    <description>Rather than having to manually copy/paste the "Save" button code for each product you create, this module will automatically add that code for you. Your visitors will have the option to save your product to clipix.com as a clip.</description>
+    <notes>Initial Release</notes>
+    <authors><author><name>Roman Chen</name><user>clipix</user><email>chenromandeveloper@gmail.com</email></author></authors>
+    <date>2015-10-02</date>
+    <time>15:47:02</time>
+    <contents><target name="magecommunity"><dir name="Clipix"><dir name="SaveButton"><dir name="Block"><file name="SaveButton.php" hash="fd130e29d6120383e81892df8908199a"/></dir><dir name="Helper"><file name="Data.php" hash="21acede4200a8f19f79acb678f1d44ce"/></dir><dir name="Model"><file name="Color.php" hash="fe75042d8706abf79db77e09cca3ed22"/><file name="Enable.php" hash="98226b9dad601f978f66ba34e55c37f2"/><file name="Language.php" hash="3daed31add110e4e619782d3c6bfc5d8"/><file name="Size.php" hash="cfa9c420b48ecd4924e890dd31c7a1d3"/></dir><dir name="etc"><file name="config.xml" hash="5089040483eeef977845dd87a08b61fc"/><file name="system.xml" hash="5eedfa8375798687847022ccdb80bbd9"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="clipix"><file name="savebutton.xml" hash="d121f56ffb7bd2b52d89ba2f4c23f995"/></dir></dir><dir name="template"><dir name="clipix"><file name="savebutton.phtml" hash="b569e050bb415575862dda4fd84e1fa6"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Clipix_SaveButton.xml" hash="b0f4436154a8d3f53e9be1756ebbdcd1"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

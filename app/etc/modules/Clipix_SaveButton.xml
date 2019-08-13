@@ -1,0 +1,9 @@
+<?xml version="1.0"?> 
+<config>
+    <modules>
+        <Clipix_SaveButton>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Clipix_SaveButton>
+    </modules>
+</config>
