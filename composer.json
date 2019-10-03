@@ -1,18 +1,5 @@
 {
-    "name": "OpenMageModuleFostering/Clipix_Save_Button",
-    "type": "magento-module",
-    "license": "OSL-v3.0",
-    "homepage": "",
-    "description": "Add the Clipix "Save" Button to your online store and provide your visitors with an easy way to save any items they are considering to buy, but not ready to execute on.
-<br>
-When they are ready to purchase, instead of searching for items again they will now easily get back to your website, with one click of a button, to the exact product page to execute their purchase.  Additionally, visitors can set a price drop alert for items that they save, which will automatically alert them when your merchandise goes on sale.",
-    "authors": [
-    {
-        "name": "Roman Chen",
-        "email": "chenromandeveloper@gmail.com"
-    }
-],
-    "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+    "keywords": [
+        "openmage-module"
+    ]
 }
